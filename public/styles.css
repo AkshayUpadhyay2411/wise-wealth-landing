@@ -31,18 +31,16 @@ header {
 }
 
 .logo {
-  margin-left: -150px;
   display: flex;
-  /* align-items: center; */
-  /* font-size: 1.5rem;
-  font-weight: 600; */
+  align-items: center;
+  margin-left: 2%; /* Adjust as needed for your layout */
 }
 
 .logo img {
-  width: 200px;
-  /* height: 200px; */
-  /* background-color: #212121; */
-  margin-right: 10vw;
+  width: 100%;
+  max-width: 200px; /* Ensures the image does not exceed this width */
+  height: auto; /* Maintains aspect ratio */
+  margin-right: 10px; /* Adjust as needed */
 }
 
 .carousel-container {
