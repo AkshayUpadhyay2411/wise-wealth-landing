@@ -8,7 +8,6 @@
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
-  /* color: var(--white); */
   background-color: var(--white);
   margin: 0;
   padding: 0;
@@ -21,8 +20,6 @@ body {
 }
 
 header {
-  /* background-color: var(--light-green); */
-  /* max-width: 1600px; */
   margin-bottom: 40px;
   border-bottom: 1px solid var(--light-green);
   box-shadow: 1px 1px 10px var(--light-green);
@@ -33,14 +30,14 @@ header {
 .logo {
   display: flex;
   align-items: center;
-  margin-left: 2%; /* Adjust as needed for your layout */
+  margin-left: 2%; 
 }
 
 .logo img {
   width: 100%;
-  max-width: 200px; /* Ensures the image does not exceed this width */
-  height: auto; /* Maintains aspect ratio */
-  margin-right: 10px; /* Adjust as needed */
+  max-width: 200px;
+  height: auto;
+  margin-right: 10px;
 }
 
 .carousel-container {
@@ -62,26 +59,13 @@ header {
   position: relative;
 }
 
-.carousel-item p {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: black; 
-  font-weight: 700;
-  font-size: 17px; 
-}
-
 .carousel-item img {
   width: 100%;
   height: 200px;
   object-fit: cover;
   border-radius: 15px;
-  background-color: rgba(0,0,0,0.5);
-  opacity: 0.45;
-  display: block; 
+  display: block;
 }
-
 
 .carousel-nav {
   position: absolute;
@@ -119,7 +103,6 @@ main {
 h2 {
   color: var(--dark-green);
   border-bottom: 2px solid var(--light-green);
-  /* box-shadow: 0 3px 2px -1px var(--light-green); */
   padding-bottom: 0.5rem;
 }
 
@@ -146,7 +129,7 @@ li::before {
   background-color: var(--dark-green);
   color: var(--white);
   margin-top: 60px;
-  padding: 1rem 2rem ;
+  padding: 1rem 2rem;
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
@@ -157,16 +140,8 @@ li::before {
   background-color: var(--light-green);
 }
 
-/* .static-images {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 2rem;
-} */
-
 .static-image {
   flex-basis: 48%;
-  /* width: 100%; */
-
 }
 
 .static-image img {
@@ -183,17 +158,13 @@ li::before {
   display: flex;
   justify-content: space-between;
   margin-top: 2rem;
-  /* background-color: var(--dark-green); */
 }
 
 .description-item {
-  padding: 10px 40px ;
+  padding: 10px 40px;
   flex-basis: 42%;
   background-color: var(--dark-green);
-  border-radius: 10px; 
-  /* width: 100px; */
-  /* margin: 0 30px 0 0; */
-
+  border-radius: 10px;
 }
 
 .description-heading {
@@ -205,7 +176,6 @@ li::before {
 }
 
 .social-proof {
-  /* align-items: center; */
   background-color: var(--white);
   padding: 2rem;
   margin-top: 2rem;
@@ -219,7 +189,6 @@ li::before {
   justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 1rem;
-  /* padding: 10px; */
 }
 
 .testimonial {
@@ -288,9 +257,11 @@ footer {
     justify-content: center;
     margin-left: -20px;
   }
+
   .container {
     margin: 0 20px;
   }
+
   .carousel-item {
     flex: 0 0 100%;
   }
@@ -298,45 +269,42 @@ footer {
   .cta-button {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     background-color: var(--dark-green);
     color: var(--white);
     margin: 40px 70px 30px;
-    padding: 0.75rem 1.25rem ;
+    padding: 0.75rem 1.25rem;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s ease;
   }
 
-  /* .description-content {
-    border-bottom: 2px solid var(--light-green) ;
-  } */
   #item-1 {
-    border-bottom: 2px solid var(--light-green) ;
+    border-bottom: 2px solid var(--light-green);
   }
 
   .action-section {
-    border-bottom: 2px solid var(--light-green) ;
+    border-bottom: 2px solid var(--light-green);
   }
-  
+
   .info-section, .action-section, .static-image, .description-item, .testimonial {
     flex-basis: 100%;
   }
-  
+
   .static-images, .description-content {
     flex-direction: column;
   }
 
   .static-image {
-    margin: 20px 0 ;
+    margin: 20px 0;
   }
-  
+
   .footer-content {
     flex-direction: column;
   }
-  
+
   .footer-section {
     margin-bottom: 1rem;
   }
 }
+
